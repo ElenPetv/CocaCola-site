@@ -33,8 +33,9 @@ p {
 
 .container {
     width: 100%;
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 
@@ -53,9 +54,10 @@ p {
 .header__inner {
     display: flex;
     justify-content: space-between;
+
     padding: 15px 0;
     align-items: center;
-    border-bottom: 2px solid #9D1204;
+    border-bottom: 2px solid #fff;
 }
 
 
@@ -70,7 +72,8 @@ p {
 
 .nav__link {
     margin-left: 50px;
-    color: #FF1F01;
+    color: #FFF;
+    font-weight: 700;
     text-decoration: none;
     opacity: .75;
     transition: opacity .1s linear;
@@ -92,10 +95,11 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 750px;
+    height: 753px;
     padding-top: 100px;
     background: #FFA69D url("img/intro-bg.jpg") center no-repeat;
     background-size: cover;
+
 }
 
 .intro__inner{
@@ -110,7 +114,7 @@ p {
     font-family: 'OpenSans', sans-serif;
     font-size: 60px;
     line-height: 1.1;
-    color: #9D1204;
+    color: #fff;
     font-weight: 700;
 
     text-transform: uppercase;
@@ -118,7 +122,7 @@ p {
 
 .intro__subtitle{
     font-size: 22px;
-    color: #FF7777;
+    color: #fff;
     line-height: 1.5;
     font-weight: 400;
 
@@ -142,7 +146,7 @@ p {
     font-family: inherit;
     font-size: 13px;
     font-weight: 600;
-    color: #fff;
+    color: #B9463A;
     text-transform: uppercase;
     text-decoration: none;
 
@@ -152,12 +156,12 @@ p {
 
 
 .btn--red{
-    background-color: #B9463A;
+    background-color: #fff;
 }
 
 
 .btn--red:hover{
-    background-color: #a5291c;
+    background-color: #FFA69D;
 }
 
 
@@ -262,4 +266,69 @@ p {
 /*HISTORY
 =============*/
 
+
+.history{
+    margin: 100px 0;
+}
+
+
+.history__inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+
+.history__item{
+    width: 25%;
+    padding: 0 20px;
+    margin: 25px 0;
+}
+
+
+.history__image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.history__title{
+    font-size: 14px;
+    color: #9D1204;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.history__subtitle{
+    font-size: 14px;
+    line-height: 1.5;
+    color: #a50f00
+}
+
+
+
+/*COPYRIGHT
+=============*/
+.copyright{
+    padding: 20px 0;
+
+    background-color: #A60000;
+    opacity: 0.9;
+}
+
+.copyright__text{
+    text-align: center;
+    tab-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.50);
+    text-transform: capitalize;
+    margin: 7px 7px;
+}
+
+.copyright__text span{
+    color: #fff;
+}
 

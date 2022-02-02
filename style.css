@@ -201,7 +201,7 @@ p {
 }
 
 .features__title{
-    font-size: 14px;
+    font-size: 18px;
     color: #9D1204;
     font-weight: 700;
     text-transform: uppercase;
@@ -209,7 +209,7 @@ p {
 }
 
 .features__text{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
     color: #a50f00
 }
@@ -305,8 +305,12 @@ p {
     margin-bottom: 25px;
 }
 
+.history__image--first{
+    height: inherit;
+}
+
 .history__title{
-    font-size: 14px;
+    font-size: 18px;
     color: #9D1204;
     font-weight: 700;
     text-transform: uppercase;
@@ -314,7 +318,7 @@ p {
 }
 
 .history__subtitle{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
     color: #a50f00
 }
